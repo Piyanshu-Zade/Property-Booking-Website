@@ -12,7 +12,7 @@ toggle.addEventListener("click", function(){
 
 var swiper = new Swiper(".about_swiper", {
     loop:true,
-    // autoplay:true,
+    autoplay:true,
     pagination: {
       el: ".swiper-pagination",
       type: ".progressbar",
