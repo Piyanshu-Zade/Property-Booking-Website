@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Booking</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- slider  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- nav  -->
+    <nav>
+        <div class="logo">     
+            <a href="#">
+            <i class='bx bxs-home'></i>
+            Quearte</a>
+        </div>
+
+        <ul class="menu">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#facilities">About</a></li>
+            <li><a href="#services">Shop</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#plan">Plan</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <button class="btn" id="add-listing">Add Listings</button>
+            </li>
+        </ul>
+
+        <i class='bx bx-menu' id="toggle"></i>
+
+    </nav>
+    <!-- nav  -->
+
+    <!-- hero  -->
+     <div class="Hero" id="hero">
+        <div class="hero_main">
+            <h3>
+                Find Your <span>Perfect</span> Home
+            </h3>
+
+            <div class="hero_btns">
+                <button class="btn">
+                    <i class='bx bxs-home'></i>
+                    Buy Home
+                </button>
+
+                <!-- <button class="btn">
+                    <i class='bx bxs-home'></i>
+                    sale Home
+                </button> -->
+            </div>
+
+            <div class="hero_form">
+                <select>
+                    <option>Property Type</option>
+                    <option>Aperments</option>
+                    <option>1BHK</option>
+                    <option>2BHK</option>
+                    <option>3BHK</option>
+                </select>
+    
+                <select>
+                    <option>Location</option>
+                    <option>Chandrapur</option>
+                    <option>Nagpur</option>
+                    <option>Pune</option>
+                    <option>Delhi</option>
+                </select>
+    
+                <select>
+                    <option>sub-Location</option>
+                    <option>Ram-Nagar</option>
+                    <option>Tukum</option>
+                    <option>Jatpura Gate</option>
+                    <option>Gandhi Chowk</option>
+                </select>
+            </div>
+        </div>
+     </div>
+    <!-- hero  -->
+
+    <!-- facilities  -->
+     <div class="facilities" id="facilities">
+        <div class="facilities_title section_title">
+            <h4>Building Facilities</h4>
+            <h2>Making Living Spaces More Beautiful</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate quos provident quod nostrum hic consectetur accusantium ad neque reiciendis culpa.</p>
+            <ul class="list_items">
+                <li>
+                    <i class='bx bxs-webcam'></i>
+                    <p>24/7 security and CCTV surveillance</p>
+                </li>
+
+                <li>
+                    <i class='bx bx-power-off'></i>
+                    <p>Backup power supply for common areas</p>
+                </li>
+
+                <li>
+                    <i class='bx bxs-parking'></i>
+                    <p>Reserved parking for residents and visitors</p>
+                </li>
+
+                <li>
+                    <i class='bx bx-universal-access'></i>
+                    <p>Children's playground and activity zone</p>
+                </li>
+
+                <li>
+                    <i class='bx bxl-microsoft-teams'></i>
+                    <p>Clubhouse for community events and meetings</p>
+                </li>
+
+                <li>
+                    <i class='bx bx-walk'></i>
+                    <p>Landscaped gardens with walking paths</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="facilities_image section_image">
+            <img src="/image/Facilities_image.png" alt="">
+        </div>
+        <div class="element">
+            <i class='bx bx-play' id="play_btn"></i>
+        </div>
+     </div>
+    <!-- facilities  -->
+
+    <!-- services  -->
+     <section class="services" id="services">
+        <div class="services_title section_title">
+            <span class="span">Our Services</span>
+            <h2>Our Main Focus</h2>
+        </div>
+        <div class="service_wrap">
+            <div class="services_item">
+                <img src="/image/Service_item1.png" alt="">
+                <h1>Buy A Home</h1>
+                <p id="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquid autem dolore, placeat esse eligendi expedita praesentium iste cumque impedit.</p>
+                <button class="btn">
+                    Find A Home
+                    <i class='bx bx-right-arrow-alt'></i>
+                </button>
+            </div>
+
+            <div class="services_item">
+                <img src="/image/Service_item2.png" alt="">
+                <h1>Rent A Home</h1>
+                <p id="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquid autem dolore, placeat esse eligendi expedita praesentium iste cumque impedit.</p>
+                <button class="btn">
+                    Find A Home
+                    <i class='bx bx-right-arrow-alt'></i>
+                </button>
+            </div>
+
+            <div class="services_item">
+                <img src="/image/Service_item3.png" alt="">
+                <h1>Sell A Home</h1>
+                <p id="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquid autem dolore, placeat esse eligendi expedita praesentium iste cumque impedit.</p>
+                <button class="btn">
+                    Find A Home
+                    <i class='bx bx-right-arrow-alt'></i>
+                </button>
+            </div>
+        </div>
+     </section>
+    <!-- services  -->
+
+    <!-- about  -->
+     <section class="about" id="projects">
+        <div class="about_title section_title">
+            <div class="headings">
+                <h4> 
+                    Upcomings Projects
+                </h4>
+                <h2>Dream Living Space Settings New Standards</h2>
+            </div>
+            <div class="swiper-button-next" id="next_btn"></div>
+            <div class="swiper-button-prev" id="prev_btn"></div>
+
+            </div>
+        </div>
+
+        <div class="about_main">
+            <div class="swiper about_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide about_slide">
+                        <div class="about_image section_image">
+                            <img src="/image/About1.jpg" alt="">
+                        </div>
+                        <div class="about_content section_title">
+                            <h4>About Project</h4>
+                            <h2>Upcomings Projects</h2>
+                            <ul class="about_list section_list">
+                                <li>
+                                    1. Project Name
+                                    <strong>Quearte</strong>
+                                </li>
+                                <li>
+                                    2. Project Type
+                                    <strong>Apartment / Home</strong>
+                                </li>
+                                <li>
+                                    3. Building Location
+                                    <strong>Chandrapur</strong>
+                                </li>
+                                <li>
+                                    4. No. of Apartments
+                                    <strong>568</strong>
+                                </li>
+                                <li>
+                                    5. Total Investment
+                                    <strong>$14,500,00</strong>
+                                </li>
+                            </ul>
+                            <button class="btn">
+                                <a href="#">Download Brochure</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide about_slide">
+                        <div class="about_image section_image">
+                            <img src="/image/About2.jpg" alt="">
+                        </div>
+                        <div class="about_content section_title">
+                            <h4>About Project</h4>
+                            <h2>Upcomings Projects</h2>
+                            <ul class="about_list section_list">
+                                <li>
+                                    1. Project Name
+                                    <strong>Quearte</strong>
+                                </li>
+                                <li>
+                                    2. Project Type
+                                    <strong>Apartment / Home</strong>
+                                </li>
+                                <li>
+                                    3. Building Location
+                                    <strong>Nagpur</strong>
+                                </li>
+                                <li>
+                                    4. No. of Apartments
+                                    <strong>568</strong>
+                                </li>
+                                <li>
+                                    5. Total Investment
+                                    <strong>$14,500,00</strong>
+                                </li>
+                            </ul>
+                            <button class="btn">
+                                <a href="#">Download Brochure</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide about_slide">
+                        <div class="about_image section_image">
+                            <img src="/image/About3.jpg" alt="">
+                        </div>
+                        <div class="about_content section_title">
+                            <h4>About Project</h4>
+                            <h2>Upcomings Projects</h2>
+                            <ul class="about_list section_list">
+                                <li>
+                                    1. Project Name
+                                    <strong>Quearte</strong>
+                                </li>
+                                <li>
+                                    2. Project Type
+                                    <strong>Apartment / Home</strong>
+                                </li>
+                                <li>
+                                    3. Building Location
+                                    <strong>Chandrapur</strong>
+                                </li>
+                                <li>
+                                    4. No. of Apartments
+                                    <strong>568</strong>
+                                </li>
+                                <li>
+                                    5. Total Investment
+                                    <strong>$14,500,00</strong>
+                                </li>
+                            </ul>
+                            <button class="btn">
+                                <a href="#">Download Brochure</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- about  -->
+
+    <!-- Aparment  -->
+     <section class="aparment_plan" id="plan">
+        <div class="aparment_title section_title">
+            <h4>Aparments Sketh</h4>
+            <h2>Aparments Plan</h2>
+            <ul>
+                <li><span class="text">Aparments Plans</span></li>
+                <li><span class="text">Deluxe Portion</span></li>
+                <li><span class="text">Penthouse</span></li>
+                <li><span class="text">Top Garden</span></li>
+                <li><span class="text">Double Height</span></li>
+            </ul>
+        </div>
+        <div class="aparments_main">
+            <div class="aparment_content section_title">
+                <h2>The Studio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime officiis commodi odit nesciunt enim neque distinctio soluta consectetur nihil!</p>
+                <ul class="Aparment_list section_list">
+                    <li>
+                        Total Area
+                        <span>2800 Sq. Ft</span>
+                    </li>
+                    <li>
+                        Total Area
+                        <span>105 Sq. Ft</span>
+                    </li>
+                    <li>
+                        Badroom
+                        <span>45 Sq. Ft</span>
+                    </li>
+                    <li>
+                        Balcony
+                        <span>Allowed</span>
+                    </li>
+                    <li>
+                        Lounge
+                        <span>650 Sq. Ft</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="aparment_image section_image">
+                <img src="/image/Aparments_image.png" alt="">
+            </div>
+        </div>
+     </section>
+    <!-- Aparment  -->
+
+    <!-- cards  -->
+    <div class="building_aminities" >
+        <div class="building_aminities_title section_title">
+            <h4>Our Aminities</h4>
+            <h2>Building Aminities</h2>
+        </div>
+        <div class="building_amimities_main">
+            <div class="card">
+                <div class="card_icon">
+                    <i class='bx bxs-car-garage'></i>
+                </div>
+                <div class="card_detail">
+                    <span>01</span>
+                    <h3>Parking Space</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dignissimos quia soluta.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_icon">
+                    <i class='bx bx-swim'></i>
+                </div>
+                <div class="card_detail">
+                    <span>02</span>
+                    <h3>Swimming Pool</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dignissimos quia soluta.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_icon">
+                    <i class='bx bxs-shield-minus'></i>
+                </div>
+                <div class="card_detail">
+                    <span>03</span>
+                    <h3>Private Security</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dignissimos quia soluta.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_icon">
+                    <i class='bx bx-plus-medical'></i>
+                </div>
+                <div class="card_detail">
+                    <span>04</span>
+                    <h3>Medical Center</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dignissimos quia soluta.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_icon">
+                    <i class='bx bx-library'></i>
+                </div>
+                <div class="card_detail">
+                    <span>05</span>
+                    <h3>Library Area</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dignissimos quia soluta.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_icon">
+                    <i class='bx bxs-bed'></i>
+                </div>
+                <div class="card_detail">
+                    <span>06</span>
+                    <h3>King Size Beds</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dignissimos quia soluta.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_icon">
+                    <i class='bx bxs-home-smile'></i>
+                </div>
+                <div class="card_detail">
+                    <span>07</span>
+                    <h3>Smart Home</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dignissimos quia soluta.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_icon">
+                    <i class='bx bx-walk'></i>
+                </div>
+                <div class="card_detail">
+                    <span>08</span>
+                    <h3>Kid's Playland</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dignissimos quia soluta.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cards  -->
+
+    <!-- footer  -->
+    <section class="footer" id="contact">
+        <div class="footer_wrap">
+            <div class="footer_col">
+                <div class="flogo">
+                    <a href="#">
+                        <i class='bx bxs-home'></i>
+                        Quaert
+                    </a>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, repudiandae. Lorem ipsum dolor sit amet.</p>
+                <ul>
+                    <li>
+                        <p>
+                            <i class='bx bxs-location-plus'></i>
+                            Manish Nagar, Nagpur
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class='bx bxs-phone-call'></i>
+                            +91 8624856258
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class='bx bxs-envelope' ></i>
+                            xyz@gmail.com
+                        </p>
+                    </li>
+                    <li class="icon">
+                        <p>
+                            <i class='bx bxl-facebook-square'></i>
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-instagram-alt' ></i>
+                            <i class='bx bxl-telegram'></i>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>Our Company</h4>
+                <ul>
+                    <li>
+                        <p>
+                            About Us
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Blog
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            All Products
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            FAQ
+                        </p>
+                    </li>
+                    <li></li>
+                        <p>
+                            Contact Us
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>Services</h4>
+                <ul>
+                    <li>
+                        <p>
+                            Cart
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            With List
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Login
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Check Out
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Terms & Conditions
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Promotional Offers  
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>Customer care</h4>
+                <ul>
+                    <li>
+                        <p>
+                            Login
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            My Account
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Wish List
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Add Listing
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            FAQ
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Comntact Us  
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>Newsletter</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dicta.</p>
+                <div class="email_box">
+                    <input type="email" id="email" placeholder="Email Address">
+                    <button class="btn">
+                        <i class='bx bxl-telegram'></i>
+                    </button>
+                </div>
+                <h4>We Accept</h4>
+                <img src="/image/payment-4.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- footer  -->
+    
+
+    <!-- slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
