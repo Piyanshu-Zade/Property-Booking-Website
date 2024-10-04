@@ -1145,9 +1145,7 @@ color: var(--white-stoke);
     .about {
         padding-left: 8%;
     }   
-    .section_title h4{
-        display: none;
-    }
+
     .aparment_plan{
         padding-top: 45%;
     }
@@ -1229,7 +1227,7 @@ color: var(--white-stoke);
         display: none;
     }
     .aparment_plan{
-        padding-top: 50%;
+        padding-top: 78%;
     }
     .building_amimities_main{
         grid-template-columns: repeat(1, 1fr);
