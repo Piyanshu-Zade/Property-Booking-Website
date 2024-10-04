@@ -38,7 +38,7 @@ html {
     align-items: center;
     text-align: center;
     gap: 20px;
-    padding-top: 3rem;
+
 }
 
 .section_title h4{
@@ -451,12 +451,13 @@ nav{
 
 .headings h4{
     color: var(--white-stoke);
+    padding-top: 1.5rem;
 }
 
 .about_main{
     height: 500px;
     position: absolute;
-    top: 33%;
+    top: 35%;
     width: 80%;
     background-color: var(--white-stoke);
     z-index: 99;
@@ -1085,7 +1086,7 @@ color: var(--white-stoke);
 @media screen and (max-width: 768px){
 
     .section_title{
-        width: 100%;
+        width: 100%;              
     }
     .section_image{
         width: 100%;
