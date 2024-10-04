@@ -456,7 +456,7 @@ nav{
 .about_main{
     height: 500px;
     position: absolute;
-    top: 40%;
+    top: 33%;
     width: 80%;
     background-color: var(--white-stoke);
     z-index: 99;
@@ -917,7 +917,7 @@ color: var(--white-stoke);
     }
 
     .section_title p{
-        font-size:0.7rem;
+        font-size:0.6rem;
         line-height: 1.4rem;
 
     }
@@ -1064,7 +1064,7 @@ color: var(--white-stoke);
         flex-direction: column;
         /* overflow: scroll; */
     }
-    .about_image{
+    .about_image {
         width: 100%;
     }
     .about_content{
@@ -1074,7 +1074,7 @@ color: var(--white-stoke);
         padding-left: 8%;
     }
     .aparment_plan{
-        padding-top: 60%;
+        padding-top: 45%;
     }
     .aparments_main{
         flex-direction: column-reverse;
@@ -1091,8 +1091,8 @@ color: var(--white-stoke);
         width: 100%;
     }
     .section_image img{
-        width: 80%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
     }
 
     .section_title h2{
@@ -1182,7 +1182,7 @@ color: var(--white-stoke);
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 500px) {
 
     .hero_main{
         width: 100%;
@@ -1213,7 +1213,7 @@ color: var(--white-stoke);
         flex-direction: column;
         /* overflow: scroll; */
     }
-    .about_image{
+    .about_image {
         width: 100%;
     }
     .about_content{
@@ -1225,6 +1225,9 @@ color: var(--white-stoke);
     .Aparment_list li::before{
         display: none;
     }
+    .aparment_plan{
+        padding-top: 50%;
+    }
     .building_amimities_main{
         grid-template-columns: repeat(1, 1fr);
         margin: 5rem 1rem 5rem 1rem;
@@ -1235,6 +1238,7 @@ color: var(--white-stoke);
         justify-content: center;
         align-items: center;
         text-align: center;
+        
     }
 
     .footer_col .flogo{
