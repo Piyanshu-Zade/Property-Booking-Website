@@ -1144,8 +1144,10 @@ color: var(--white-stoke);
     }
     .about {
         padding-left: 8%;
+    }   
+    .section_title h4{
+        display: none;
     }
-
     .aparment_plan{
         padding-top: 45%;
     }
